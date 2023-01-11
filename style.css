@@ -1,3 +1,117 @@
 .red-textColor{
     color:#FF4F5A;
 }
+ul li {
+    list-style: none;
+}
+.white-text-color{
+    color: white;
+}
+
+.img-res{
+    width: 5rem;
+}
+ul li{
+    list-style: none;
+}
+
+.first-para{
+    height: 10rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+input.ch{
+    width: 20px;
+    height: 20px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.sub-list ul li{
+    margin: 0;
+    padding: 0;
+    display:inline;
+}
+@media screen and (max-width:760px) {
+    .first-para{
+        height: auto;
+       }
+    .first-para ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    } 
+}
+.seccond-para{
+    background-color: aliceblue;
+    height: 100vh;
+}
+.check{
+    width:35px;
+}
+header,main{
+    width:75%;
+}
+@media screen and (max-width:700px) {
+    header,main{
+        width:100%;
+    }
+}
+/*Profile Pic Start*/
+.picture-container{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.picture{
+    width: 106px;
+    height: 106px;
+    background-color: #999999;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.picture:hover{
+    border-color: #2ca8ff;
+}
+.content.ct-wizard-green .picture:hover{
+    border-color: #05ae0e;
+}
+.content.ct-wizard-blue .picture:hover{
+    border-color: #3472f7;
+}
+.content.ct-wizard-orange .picture:hover{
+    border-color: #ff9500;
+}
+.content.ct-wizard-red .picture:hover{
+    border-color: #ff3b30;
+}
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.picture-src{
+    width: 100%;
+    
+}
+/*Profile Pic End*/
+
+@media screen and (max-width: 480px) {
+   
+   
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="days.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm pt-3" style="background-color:#FF4F5A;">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-lg-5 " href="#">
+            <img class="ms-lg-5  me-2" src="./img/white-logo.png" alt="TodoDaily" srcset="">
+            <span class="fs-3 fw-bold white-text-color" >TodoDaily</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-lg-5 justify-content-end" id="navbarNav">
+            <ul class="navbar-nav me-lg-5">
+              <li class="nav-item">
+                <a class="nav-link white-text-color" href="Sigin.html">Profile name</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white-text-color" href="Signinup.html">Uplad Img</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white-text-color" href="Signinup.html">Log out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="first-para mt-5  mb-5 col-md-2">
+            <ul class="Sub-list text-justify">
+              <li>
+                <img src="img/Vector (18).png" alt="today" class="me-sm-2 mb-3">
+                <a href="./Today.html" class="mb-1">today</a>
+              </li>
+              <li>
+                <img src="img/Vector (19).png" alt="today" class="me-sm-2 mb-3">
+                <a  href="#" class="mb-1">Yesterday</a>
+              </li>
+              <li>
+                <img src="img/Vector (20).png" alt="today" class="me-sm-2 mb-3">
+                <a  href="./upcoming.html" class="mb-1">Upcomming</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-10 seccond-para">
+            <header>
+                <h1 class="mt-4 ms-3">Yesterday</h1>
+            <p class="ms-3">4/5 completed</p>
+                <form id="new-task-form">
+                    <input 
+                        type="text" 
+                        name="new-task-input" 
+                        id="new-task-input" 
+                        class="form-control mb-4"
+                        placeholder="What do you have planned?" />
+                    <input 
+                        type="submit"
+                        id="new-task-submit" 
+                        value="Add task"
+                        class="btn btn-outline-danger" />
+                </form>
+            </header>
+            <main>
+                <section class="task-list">
+                    <div id="tasks">
+                       <div>
+                        
+                       </div>
+                    </div>
+                </section>
+            </main>
+          </div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
